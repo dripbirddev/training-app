@@ -1,6 +1,0 @@
-# config/deploy.production.yml
-
-traefik:
-  labels:
-    traefik.http.routers.dashboard.rule: "Host(`traefik.onetribe.team`)"
-    traefik.http.middlewares.auth.basicauth.users: user-production:$2y$05$us7dsDg56EJ/qojvhLvy9OEshrzoWjGSKXziBqeiFq3Ehf1pAiGSG
